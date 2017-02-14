@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C104036F1E222ADD00A0DA82 /* ShadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C104036E1E222ADD00A0DA82 /* ShadeView.m */; };
+		C13F9F3E1E21C7BF004C2991 /* UpDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F9F3D1E21C7BF004C2991 /* UpDownView.m */; };
+		C13F9F411E2214F5004C2991 /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F9F401E2214F5004C2991 /* StarView.m */; };
+		C15299171E23242F00057847 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C15299161E23242F00057847 /* WaveView.m */; };
 		C16076621E208F7900E55FC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C16076611E208F7900E55FC5 /* main.m */; };
 		C16076651E208F7900E55FC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C16076641E208F7900E55FC5 /* AppDelegate.m */; };
 		C16076681E208F7900E55FC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16076671E208F7900E55FC5 /* ViewController.m */; };
@@ -15,6 +19,7 @@
 		C16076701E208F7900E55FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C160766E1E208F7900E55FC5 /* LaunchScreen.storyboard */; };
 		C160767B1E208F7A00E55FC5 /* Animation_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C160767A1E208F7A00E55FC5 /* Animation_demoTests.m */; };
 		C16076861E208F7A00E55FC5 /* Animation_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C16076851E208F7A00E55FC5 /* Animation_demoUITests.m */; };
+		C16076951E20E5E600E55FC5 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16076941E20E5E600E55FC5 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C104036D1E222ADD00A0DA82 /* ShadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadeView.h; sourceTree = "<group>"; };
+		C104036E1E222ADD00A0DA82 /* ShadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadeView.m; sourceTree = "<group>"; };
+		C13F9F3C1E21C7BF004C2991 /* UpDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpDownView.h; sourceTree = "<group>"; };
+		C13F9F3D1E21C7BF004C2991 /* UpDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpDownView.m; sourceTree = "<group>"; };
+		C13F9F3F1E2214F5004C2991 /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
+		C13F9F401E2214F5004C2991 /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
+		C15299151E23242F00057847 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		C15299161E23242F00057847 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
 		C160765D1E208F7900E55FC5 /* Animation_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16076611E208F7900E55FC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C16076631E208F7900E55FC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,8 @@
 		C16076811E208F7A00E55FC5 /* Animation_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Animation_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16076851E208F7A00E55FC5 /* Animation_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation_demoUITests.m; sourceTree = "<group>"; };
 		C16076871E208F7A00E55FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16076931E20E5E600E55FC5 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C16076941E20E5E600E55FC5 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				C16076641E208F7900E55FC5 /* AppDelegate.m */,
 				C16076661E208F7900E55FC5 /* ViewController.h */,
 				C16076671E208F7900E55FC5 /* ViewController.m */,
+				C104036D1E222ADD00A0DA82 /* ShadeView.h */,
+				C104036E1E222ADD00A0DA82 /* ShadeView.m */,
+				C13F9F3C1E21C7BF004C2991 /* UpDownView.h */,
+				C13F9F3D1E21C7BF004C2991 /* UpDownView.m */,
+				C15299151E23242F00057847 /* WaveView.h */,
+				C15299161E23242F00057847 /* WaveView.m */,
+				C13F9F3F1E2214F5004C2991 /* StarView.h */,
+				C13F9F401E2214F5004C2991 /* StarView.m */,
+				C16076931E20E5E600E55FC5 /* TestViewController.h */,
+				C16076941E20E5E600E55FC5 /* TestViewController.m */,
 				C16076691E208F7900E55FC5 /* Main.storyboard */,
 				C160766C1E208F7900E55FC5 /* Assets.xcassets */,
 				C160766E1E208F7900E55FC5 /* LaunchScreen.storyboard */,
@@ -277,7 +302,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C16076681E208F7900E55FC5 /* ViewController.m in Sources */,
+				C104036F1E222ADD00A0DA82 /* ShadeView.m in Sources */,
+				C13F9F411E2214F5004C2991 /* StarView.m in Sources */,
+				C15299171E23242F00057847 /* WaveView.m in Sources */,
+				C13F9F3E1E21C7BF004C2991 /* UpDownView.m in Sources */,
 				C16076651E208F7900E55FC5 /* AppDelegate.m in Sources */,
+				C16076951E20E5E600E55FC5 /* TestViewController.m in Sources */,
 				C16076621E208F7900E55FC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +544,7 @@
 				C160768C1E208F7A00E55FC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C160768D1E208F7A00E55FC5 /* Build configuration list for PBXNativeTarget "Animation_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +553,7 @@
 				C160768F1E208F7A00E55FC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C16076901E208F7A00E55FC5 /* Build configuration list for PBXNativeTarget "Animation_demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +562,7 @@
 				C16076921E208F7A00E55FC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
